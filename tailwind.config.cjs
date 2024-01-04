@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 
-const px0_2000 = { ...Array.from(Array(201)).map((_, i) => `${i}px`) };
+const px0_2000 = { ...Array.from(Array(201)).map((_, i) => `${i}px`) }
 
 export default {
   content: [
-    './src/pages/*.{js,jsx,ts,tsx}',
-    './src/components/*.{js,jsx,ts,tsx}',
-    './src/routes/*.{js,jsx,ts,tsx}',
+    "./src/pages/*.{js,jsx,ts,tsx}",
+    "./src/components/*.{js,jsx,ts,tsx}",
+    "./src/routes/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -26,4 +26,4 @@ export default {
     },
   },
   plugins: [],
-};
+}
