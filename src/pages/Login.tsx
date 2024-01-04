@@ -1,7 +1,7 @@
-import * as React from 'react';
+import * as React from "react"
 
 function LoginPage() {
-  React.useEffect(() => {}, []);
+  React.useEffect(() => {}, [])
 
   return (
     <>
@@ -17,7 +17,7 @@ function LoginPage() {
         </label>
       </form>
     </>
-  );
+  )
 }
 
-export default LoginPage;
+export default LoginPage

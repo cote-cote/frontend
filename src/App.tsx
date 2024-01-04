@@ -1,7 +1,7 @@
-import { Route, Routes } from 'react-router-dom';
-import LoginPage from './pages/Login';
-import ErrorBoundary from './routes/errorBoundary';
-import MainPage from './pages/Main';
+import { Route, Routes } from "react-router-dom"
+import LoginPage from "./pages/Login"
+import ErrorBoundary from "./routes/errorBoundary"
+import MainPage from "./pages/Main"
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         errorElement={<ErrorBoundary />}
       ></Route>
     </Routes>
-  );
+  )
 }
 
-export default App;
+export default App
