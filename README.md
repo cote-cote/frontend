@@ -1,4 +1,4 @@
-# CoteCote - Coding Test Study Platform [[Link:link:]](frontend-six-phi-32.vercel.app)
+# CoteCote - Coding Test Study Platform [[Link]](https://frontend-six-phi-32.vercel.app)
 
 ## Introduce
 
