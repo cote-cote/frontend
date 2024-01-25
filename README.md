@@ -5,7 +5,7 @@
 Solve Coding Test,
 Share your code,
 Review buddy's code,
-Enjoy Coding Togather!
+Enjoy Coding Together!
 
 ---
 
