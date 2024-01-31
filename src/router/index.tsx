@@ -4,6 +4,7 @@ import ErrorBoundary from "./errorBoundary";
 import ListPage from "../pages/List";
 import ChatRoomPage from "../pages/ChatRoom";
 import MainPage from "../pages/Main";
+import NotFound from "./NotFound";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
