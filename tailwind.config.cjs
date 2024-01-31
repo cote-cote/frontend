@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const px0_2000 = { ...Array.from(Array(201)).map((_, i) => `${i}px`) }
+const px0_2000 = { ...Array.from(Array(201)).map((_, i) => `${i}px`) };
 
 export default {
   content: [
@@ -26,5 +26,5 @@ export default {
     },
   },
   plugins: [],
-  // prefix: "tw-",
-}
+  prefix: "tw-",
+};
