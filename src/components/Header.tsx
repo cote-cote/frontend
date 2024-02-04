@@ -1,20 +1,20 @@
-import * as React from "react"
-import coteLogo from "../assets/cote-logo.png"
+import * as React from "react";
+import coteLogo from "../assets/cote-logo.png";
 
 function Header() {
   return (
-    <header className="flex h-100 w-full items-center justify-between bg-black px-20">
+    <header className="tw-flex tw-h-100 tw-w-full tw-items-center tw-justify-between tw-bg-black tw-px-20">
       <a href="/">
-        <img src={coteLogo} className="h-50 w-50" alt="cote-cote-logo" />
+        <img src={coteLogo} className="tw-h-50 tw-w-50" alt="cote-cote-logo" />
       </a>
       <button
         type="button"
-        className="rounded border border-white px-10 py-5 text-white"
+        className="tw-rounded tw-border tw-border-white tw-px-10 tw-py-5 tw-text-white"
       >
         Logout
       </button>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
