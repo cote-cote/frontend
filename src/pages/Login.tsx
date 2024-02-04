@@ -1,15 +1,16 @@
-import * as React from "react"
+import * as React from "react";
 
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function LoginPage() {
-  const [clientId, setClientId] = React.useState("")
+  const [clientId, setClientId] = React.useState("");
 
-  const githubURL = `https://github.com/login/oauth/authorize`
-  const config = `?scope=user:email,public_repo&client_id=`
-  const onChangeId = (e) => {
-    setClientId(e.target.value)
-  }
+  const githubURL = `https://github.com/login/oauth/authorize`;
+  const config = `?scope=user:email,public_repo&client_id=`;
+
+  const onChangeId = (event) => {
+    setClientId(event.target.value);
+  };
 
   return (
     <div className="tw-text-center">
@@ -34,7 +35,7 @@ function LoginPage() {
         </Link>
       </div>
     </div>
-  )
+  );
 }
 
-export default LoginPage
+export default LoginPage;
