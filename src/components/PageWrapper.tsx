@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 function PageWrapper({ children }) {
   return (
-    <div className="tw-flex tw-flex-col">
+    <div className="tw-flex tw-h-full tw-flex-col">
       <Header />
       <div className="tw-flex-1 tw-p-20">{children}</div>
       <Footer />
