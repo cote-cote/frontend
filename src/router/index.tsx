@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import { createBrowserRouter } from "react-router-dom";
 import LoginPage from "../pages/Login";
 import ErrorBoundary from "./errorBoundary";
@@ -9,6 +7,7 @@ import MainPage from "../pages/Main";
 import NotFound from "./NotFound";
 import StudyCreate from "../pages/StudyCreate";
 import StudyEdit from "../pages/StudyEdit";
+import Session from "../pages/Session";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/chat-room",
     element: <ChatRoomPage />,
+  },
+  {
+    path: "/session",
+    element: <Session />,
   },
   {
     path: "/",
