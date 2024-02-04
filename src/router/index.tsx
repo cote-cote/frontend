@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { createBrowserRouter } from "react-router-dom";
 import LoginPage from "../pages/Login";
 import ErrorBoundary from "./errorBoundary";
