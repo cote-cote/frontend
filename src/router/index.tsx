@@ -5,6 +5,8 @@ import ListPage from "../pages/List";
 import ChatRoomPage from "../pages/ChatRoom";
 import MainPage from "../pages/Main";
 import NotFound from "./NotFound";
+import StudyCreate from "../pages/StudyCreate";
+import StudyEdit from "../pages/StudyEdit";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,9 @@ const router = createBrowserRouter([
     path: "/",
     element: <MainPage />,
   },
+  { path: "/study/create", element: <StudyCreate /> },
+  { path: "/study/edit", element: <StudyEdit /> },
+
   {
     path: "*",
     element: <NotFound />,
