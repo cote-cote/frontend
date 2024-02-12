@@ -6,14 +6,12 @@ import SessionUpperArea from "../components/session/SessionUpperArea";
 
 const Session: React.FC = () => {
   return (
-    <>
-      <Container>
-        <SessionUpperArea />
-        <SessionList />
-        <SessionPagination />
-        <SessionSearchBar />
-      </Container>
-    </>
+    <Container>
+      <SessionUpperArea />
+      <SessionList />
+      <SessionPagination />
+      <SessionSearchBar />
+    </Container>
   );
 };
 

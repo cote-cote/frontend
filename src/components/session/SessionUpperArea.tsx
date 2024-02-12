@@ -4,17 +4,15 @@ import SessionTitle from "./SessionTitle";
 
 const SessionUpperArea: React.FC = () => {
   return (
-    <>
-      <Box
-        display="flex"
-        alignItems="center"
-        justifyContent="space-between"
-        sx={{ paddingY: "16px" }}
-      >
-        <SessionTitle />
-        <SessionAddButton />
-      </Box>
-    </>
+    <Box
+      display="flex"
+      alignItems="center"
+      justifyContent="space-between"
+      sx={{ paddingY: "16px" }}
+    >
+      <SessionTitle />
+      <SessionAddButton />
+    </Box>
   );
 };
 
