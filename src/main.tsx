@@ -6,6 +6,8 @@ import { RouterProvider } from "react-router-dom";
 import "./index.css";
 import router from "./router/index.tsx";
 
+import "react-datepicker/dist/react-datepicker.css";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
