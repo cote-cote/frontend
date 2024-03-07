@@ -7,7 +7,7 @@ import MainPage from "../pages/Main";
 import NotFound from "./NotFound";
 import StudyCreate from "../pages/StudyCreate";
 import StudyEdit from "../pages/StudyEdit";
-import Session from "../pages/Session";
+// import Session from "../pages/Session";
 
 const router = createBrowserRouter([
   {
