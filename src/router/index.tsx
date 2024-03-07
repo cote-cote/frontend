@@ -23,10 +23,10 @@ const router = createBrowserRouter([
     path: "/chat-room",
     element: <ChatRoomPage />,
   },
-  {
-    path: "/session",
-    element: <Session />,
-  },
+  // {
+  //   path: "/session",
+  //   element: <Session />,
+  // },
   {
     path: "/",
     element: <MainPage />,
