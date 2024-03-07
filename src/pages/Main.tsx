@@ -1,8 +1,5 @@
 import * as React from "react";
 
-import Button from "@mui/material/Button";
-import AddIcon from "@mui/icons-material/Add";
-
 import StudyInfoCard from "../components/StudyInfoCard";
 import PageWrapper from "../components/PageWrapper";
 
@@ -40,13 +37,10 @@ function MainPage() {
     <PageWrapper>
       <section
         id=""
-        className="tw-mt-20 tw-flex tw-justify-between tw-border-b-1 tw-pb-20"
+        className="tw-border-b-1 tw-mt-20 tw-flex tw-justify-between tw-pb-20"
       >
         <h1>Cote Study!</h1>
-        <Button>
-          <AddIcon fontSize="small" />
-          Session
-        </Button>
+        <button>Session Add</button>
       </section>
 
       <section id="my-study-list" className="tw-my-20">
