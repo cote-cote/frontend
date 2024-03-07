@@ -17,10 +17,16 @@
 
     /* Linting */
     "noImplicitReturns": true, //함수에서 return 빼먹으면 에러내기
-    "noFallthroughCasesInSwitch": true //switch문 이상하면 에러내기
+    "noFallthroughCasesInSwitch": true, //switch문 이상하면 에러내기
     // "strict": false,
     // "noUnusedLocals": true,
     // "noUnusedParameters": false,
+
+    // shadcn
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
