@@ -1,7 +1,7 @@
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
 
-const SessionAddButton: React.FC = () => {
-  return <Button variant="outlined">세션 +</Button>;
-};
+// const SessionAddButton: React.FC = () => {
+//   return <Button variant="outlined">세션 +</Button>;
+// };
 
-export default SessionAddButton;
+// export default SessionAddButton;
